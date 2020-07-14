@@ -110,13 +110,13 @@
 			    vertical-align: top;
 			}
 
-			#liseret
-			{   
+			#liseret 
+			{
 				float: left;
-			    width: 20%;
-			    height: 1920px;
-			    background-position: left;
-				background-color:#027b81e5;
+				width: 20%;
+				height: 980px;
+				background-position: left;
+				background-color: #027b81e5;
 			}
 			
 			

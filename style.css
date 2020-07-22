@@ -1,5 +1,6 @@
 body {
 	background-color: white;
+	margin: 0;
 
 }
 
@@ -8,8 +9,9 @@ h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
-#contenu {
+header {
 	text-decoration: underline black;
+	text-align: center;
 }
 td {
 	min-width: 100px;
@@ -92,7 +94,7 @@ a {
 	justify-content: center;
 }
 
-	img {
+img {
 	border-radius: 100px;
 	border: 2px solid black;
 }
@@ -107,8 +109,7 @@ a {
 	text-align: center;
 }
 
-#liseret,
-#contenu {
+#liseret{
 	display: inline-block;
 	flex-direction: column;
 	vertical-align: top;
@@ -130,25 +131,31 @@ a {
 	background-position: center;
 }
 
-#contenu {
-	width: 70%;
-	text-align: center;
-
-}
-
 @media all and (max-width: 1024px) {
 	#paragraphe section {
 		display: block;
 		width: auto;
 	}
-
-	#contenu {
-		width: auto;
+	header{
+		width: 100%;
 	}
-
 	#liseret {
 		width: auto;
 		background-color: white;
 		height: auto;
 	}
+
+}
+
+@media all and (min-width: 1025px) {
+
+header{
+	position: absolute;
+	margin-left: 20%;
+	width: 80%;
+}
+
+#paragraphe{
+	margin-top: 100px;
+}
 }

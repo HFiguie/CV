@@ -8,6 +8,9 @@ h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
+#contenu {
+	text-decoration: underline black;
+}
 td {
 	min-width: 100px;
 	/*padding-right: 50px;*/
@@ -59,6 +62,22 @@ li {
 	justify-content: space-between;
 }
 
+#propos {
+	text-align: justify;
+	
+}
+#propos p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#hobbies img {
+	margin-top: 10px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+
 mark {
 	display: flex;
 	justify-content: center;
@@ -73,10 +92,9 @@ a {
 	justify-content: center;
 }
 
-img {
+	img {
 	border-radius: 100px;
 	border: 2px solid black;
-	box-shadow: 4px 4px 4px black;
 }
 
 #paragraphe section {
@@ -129,6 +147,8 @@ img {
 	}
 
 	#liseret {
-		display: ;
+		width: auto;
+		background-color: white;
+		height: auto;
 	}
 }

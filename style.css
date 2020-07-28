@@ -73,10 +73,10 @@ li {
 	padding-right: 20px;
 }
 
-#hobbies img {
-	margin-top: 10px;
-	margin-left: 20px;
-	display: inline-block;
+.fa{
+	font-size: 50px;
+	padding-left: 10px;
+	color: black;
 }
 
 
@@ -85,7 +85,6 @@ mark {
 	justify-content: center;
 	background-color: grey;
 }
-
 
 a {
 	padding-bottom: 15px;
@@ -118,7 +117,7 @@ img {
 #liseret {
 	float: left;
 	width: 20%;
-	height: 980px;
+	height: 1000px;
 	background-position: left;
 	background-color: #027b81e5;
 }
@@ -136,8 +135,10 @@ img {
 		display: block;
 		width: auto;
 	}
-	header{
+	header {
 		width: 100%;
+		float: left;		
+		position: relative;
 	}
 	#liseret {
 		width: auto;
@@ -149,13 +150,12 @@ img {
 
 @media all and (min-width: 1025px) {
 
-header{
-	position: absolute;
-	margin-left: 20%;
-	width: 80%;
-}
-
-#paragraphe{
-	margin-top: 100px;
-}
+	header{
+		position: absolute;
+		margin-left: 20%;
+		width: 80%;
+	}
+	#paragraphe{
+		margin-top: 100px;
+	}
 }

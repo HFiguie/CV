@@ -60,14 +60,11 @@ li {
 	width: 100%;
 }
 
-#contact {
-	justify-content: space-between;
-}
-
 #propos {
 	text-align: justify;
 	
 }
+
 #propos p {
 	padding-left: 20px;
 	padding-right: 20px;

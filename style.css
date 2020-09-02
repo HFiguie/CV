@@ -1,15 +1,33 @@
 body {
-	background-color: white;
 	margin: 0;
 }
 
+.poste span {
+	text-decoration: underline #027b81e5;
+	
+}
+
+.poste{
+	color: #757575;
+}
+
+.prenom span{
+	color: #027b81e5 ;
+}
 h1,h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
 header {
-	text-decoration: underline black;
 	text-align: center;
+	width: 80%;
+	padding-top: 15px ;
+	float: ;
+}
+
+.prenom{
+	text-transform: uppercase;
+	color:#757575 ;
 }
 td {
 	min-width: 100px;
@@ -17,21 +35,21 @@ td {
 	/*padding-bottom: 10px; */
 }
 
-table {
+.tableau {
 	margin-left: 30px;
 	border-collapse: separate;
 	border-spacing: 0px 10px;
 	padding-bottom: 10px;
 }
 
-#paragraphe h2 {
+.intitule{
 	padding-bottom: 15px;
-	color: #027b81e5;
-	text-decoration: underline grey;
+	color: #00838f;
+	text-decoration: underline #757575;
 
 }
 
-ul {
+.liste {
 	padding-inline-start: 30px;
 	list-style-type: none;
 	text-align: justify;
@@ -39,6 +57,9 @@ ul {
 
 li {
 	padding-top: 15px;
+}
+.titre{
+	background-color:#757575 
 }
 
 .adresse {
@@ -52,10 +73,9 @@ li {
 	margin-bottom: 30px;
 }
 
-
 .email {
-	padding-left: 20px;
-	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 30px;
 }
 
 #propos {
@@ -72,13 +92,6 @@ li {
 	font-size: 50px;
 	padding-left: 10px;
 	color: black;
-}
-
-
-mark {
-	display: flex;
-	justify-content: center;
-	background-color: grey;
 }
 
 a {
@@ -103,20 +116,15 @@ img {
 	text-align: center;
 }
 
-#liseret{
-	display: inline-block;
-	flex-direction: column;
-	vertical-align: top;
-}
-
 #liseret {
 	float: left;
 	width: 20%;
 	height: 1000px;
 	background-position: left;
 	background-color: #027b81e5;
+	flex-direction: column;
+	vertical-align: top;
 }
-
 
 #paragraphe {
 
@@ -125,31 +133,38 @@ img {
 	background-position: center;
 }
 
-@media all and (max-width: 1024px) {
-	#paragraphe section {
+#paragraphe section {
 		display: block;
 		width: auto;
 	}
-	header {
-		width: 100%;
-		float: left;		
-		position: relative;
-	}
-	#liseret {
-		width: auto;
-		background-color: white;
-		height: auto;
-	}
-
+	
+	
+.circle {
+	border: solid 2px #000;
+	padding: 10px;
 }
 
-@media all and (min-width: 1025px) {
+.circle::after {
+	content: '';
+	background-color: red;
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+@media all and (max-width: 1025px) {
 
 	header{
 		position: absolute;
 		margin-left: 20%;
 		width: 80%;
 	}
+
+	#liseret{
+		display: flex;
+
+	}
+
 	#paragraphe{
 		margin-top: 100px;
 	}

@@ -5,15 +5,16 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- <script src="https://use.fontawesome.com/f09c40f241.js"></script> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title> CV Hugo Figuié </title>
 </head>
 
 <body>
 	<header>
-		<h1>Hugo Figuié</h1>
-		<h2>Développeur Web</h2>
+		<h1 class="prenom"><span>Hugo</span> Figuié</h1>
+		<h2 class="poste"><span>Dével</span>oppeur Web</h2>
 	</header>
 
 	<div id="liseret">
@@ -24,7 +25,7 @@
 
 		<section id="contact">
 
-			<h2><mark>Contact</mark></h2>
+			<h2 class="titre">Contact</h2>
 
 			<div class="adresse">
 				Lagord,France
@@ -43,7 +44,7 @@
 		</section>
 
 		<section id="propos">
-			<h2><mark>À propos de moi</mark></h2>
+			<h2 class="titre">À propos de moi</h2>
 			<p>Je m'appelle Hugo Figuié, j'ai 27 ans et habite à La Rochelle.
 			   J'ai débuté ma formation de développeur web sur OpenClassRooms en mars 2020. 
 			</p>
@@ -51,7 +52,7 @@
 		</section>
 
 		<section id="hobbies">
-			<h2><mark>Hobbies</mark></h2>
+			<h2 class="titre">Hobbies</h2>
 			<i class="fa fa-motorcycle"></i>
 			<i class="fa fa-book"></i>
 			<i class="fa fa-gamepad"></i>
@@ -59,12 +60,14 @@
 	</div>
 
 	<div id="paragraphe">
+		<div class="circle"></div>
+
 
 
 		<section id="experiences">
-			<h2> Expériences professionnelles </h2>
+			<h2 class="intitule"> Expériences professionnelles </h2>
 
-			<table>
+			<table class="tableau">
 				<tr>
 					<td>2017 à 2020</td>
 					<td>Technicien de maintenance à la clinique du Mail</td>
@@ -92,12 +95,13 @@
 			</table>
 
 		</section>
-
+		<section id="formations">
 
 		<section id="formations">
-			<h2>Formations et Diplômes</h2>
+			
+			<h2 class="intitule"><i class="fas fa-book-open"></i>Formations et Diplômes</h2>
 
-			<ul>
+			<ul class="liste">
 				<li>Niveau licence 1 informatique </li>
 				<li>Niveau BTS FEE option D</li>
 				<li>Bac Professionel TISEC</li>
@@ -108,16 +112,14 @@
 
 
 		<section id="competences">
-			<h2>Mes Compétences</h2>
-
-			<ul>
-
+			<h2 class="intitule">Mes Compétences</h2>
+			<ul class="liste">
 				<li>Entretien d'installation thermique</li>
 				<li>Entretien d'installation frigorifique</li>
 				<li>Plomberie générale</li>
 				<li>Pose et maintenance de réseaux gaz</li>
-
-			</ul>
+			</ul>	
+			</div>
 		</section>
 	</div>
 </body>

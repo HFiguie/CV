@@ -12,7 +12,7 @@ body {
 }
 
 .prenom span{
-	color: #027b81e5 ;
+	color: #027b81e5;
 }
 h1,h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
@@ -21,8 +21,9 @@ h1,h2 {
 header {
 	text-align: center;
 	width: 80%;
-	padding-top: 15px ;
-	float: ;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	
 }
 
 .prenom{
@@ -49,8 +50,12 @@ td {
 
 }
 
+.intitule i{
+	padding-right: 20px;
+}
+
 .liste {
-	padding-inline-start: 30px;
+	padding-inline-start: 50px;
 	list-style-type: none;
 	text-align: justify;
 }
@@ -138,31 +143,19 @@ img {
 		width: auto;
 	}
 	
-	
-.circle {
-	border: solid 2px #000;
-	padding: 10px;
-}
-
-.circle::after {
-	content: '';
-	background-color: red;
-	display: block;
-	width: 30px;
-	height: 30px;
-}
-
 @media all and (max-width: 1025px) {
 
 	header{
-		position: absolute;
-		margin-left: 20%;
+		position: relative;
+		text-align: center;
 		width: 80%;
 	}
 
 	#liseret{
 		display: flex;
-
+		height: auto;
+		width: auto;
+		background-color: white;
 	}
 
 	#paragraphe{

@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 }
@@ -18,7 +22,7 @@ h1,h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
-header {
+.header {
 	text-align: center;
 	width: 80%;
 	padding-bottom: 20px;
@@ -32,12 +36,13 @@ header {
 }
 td {
 	min-width: 100px;
+	padding: 10px;
 	/*padding-right: 50px;*/
 	/*padding-bottom: 10px; */
 }
 
 .tableau {
-	margin-left: 30px;
+	margin-left: 40px;
 	border-collapse: separate;
 	border-spacing: 0px 10px;
 	padding-bottom: 10px;
@@ -55,7 +60,6 @@ td {
 }
 
 .liste {
-	padding-inline-start: 50px;
 	list-style-type: none;
 	text-align: justify;
 }
@@ -83,12 +87,12 @@ li {
 	margin-bottom: 30px;
 }
 
-#propos {
+.propos {
 	text-align: justify;
 	
 }
 
-#propos p {
+.propos p {
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -132,8 +136,6 @@ img {
 }
 
 #paragraphe {
-
-	width: 70%;
 	float: left;
 	background-position: center;
 }
@@ -142,13 +144,37 @@ img {
 		display: block;
 		width: auto;
 	}
+
+.circle {
+	border: solid 2px #027b81e5;
+	display: inline-flex;
+	border-radius: 100%;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.circle::after {
+		content: '';
+		background-color: #027b81e5;
+		display: inline-block;
+		width: 5px;
+		height: 5px;
+		border-radius: 100px;
+		}
+	
 	
 @media all and (max-width: 1025px) {
 
 	header{
 		position: relative;
 		text-align: center;
-		width: 80%;
+		width: auto;
 	}
 
 	#liseret{
@@ -162,3 +188,5 @@ img {
 		margin-top: 100px;
 	}
 }
+
+/* largeur du header et du liseret */

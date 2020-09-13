@@ -24,7 +24,6 @@ h1,h2 {
 
 .header {
 	text-align: center;
-	width: 80%;
 	padding-bottom: 20px;
 	padding-top: 15px;
 	
@@ -42,7 +41,6 @@ td {
 }
 
 .tableau {
-	margin-left: 40px;
 	border-collapse: separate;
 	border-spacing: 0px 10px;
 	padding-bottom: 10px;
@@ -62,8 +60,9 @@ td {
 .liste {
 	list-style-type: none;
 	text-align: justify;
+	padding-left: 10px ;
 }
-
+/*remplacer ce selecteur par une classe*/
 li {
 	padding-top: 15px;
 }
@@ -102,45 +101,44 @@ li {
 	padding-left: 10px;
 	color: black;
 }
-
+/*Remplacer ce selecteur par une classe*/
 a {
 	padding-bottom: 15px;
 	padding-top: 30px;
 	display: flex;
 	justify-content: center;
 }
-
+/* celui là aussi */
 img {
 	border-radius: 100px;
 	border: 2px solid black;
 }
 
-#paragraphe section {
+.paragraphe section {
 	display: inline-block;
 	padding: 30px;
 	width: 100%;
 }
 
-#liseret h2 {
+.liseret h2 {
 	text-align: center;
 }
 
-#liseret {
+.liseret {
 	float: left;
 	width: 20%;
-	height: 1000px;
-	background-position: left;
+	padding-bottom: 2em;
 	background-color: #027b81e5;
-	flex-direction: column;
 	vertical-align: top;
+	border-bottom-right-radius: 30px;
 }
 
-#paragraphe {
-	float: left;
+.paragraphe {
+	display: inline-block;
 	background-position: center;
 }
 
-#paragraphe section {
+.paragraphe section {
 		display: block;
 		width: auto;
 	}
@@ -150,8 +148,8 @@ img {
 	display: inline-flex;
 	border-radius: 100%;
 	margin-right: 10px;
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -174,19 +172,17 @@ img {
 	header{
 		position: relative;
 		text-align: center;
-		width: auto;
 	}
 
-	#liseret{
-		display: flex;
+	.liseret{
 		height: auto;
-		width: auto;
+		width: 100%;
 		background-color: white;
 	}
 
-	#paragraphe{
+	.paragraphe{
 		margin-top: 100px;
 	}
 }
 
-/* largeur du header et du liseret */
+/* largeur du liseret */

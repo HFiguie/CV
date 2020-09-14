@@ -7,16 +7,16 @@ body {
 }
 
 .poste span {
-	text-decoration: underline #027b81e5;
+	text-decoration: underline #616161;
 	
 }
 
 .poste{
-	color: #757575;
+	color:black ;
 }
 
 .prenom span{
-	color: #027b81e5;
+	color: black;
 }
 h1,h2 {
 	font-family: 'droid_sansregular', 'Arial', sans-serif;
@@ -30,13 +30,14 @@ h1,h2 {
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 15px;
-	
+	background-color: #027b81e5;
 }
 
 .prenom{
 	text-transform: uppercase;
-	color:#757575 ;
+	color:#616161 ;
 }
+
 td {
 	min-width: 100px;
 	padding: 10px;
@@ -111,6 +112,10 @@ td {
 	justify-content: center;
 }
 
+a{
+	color: black;
+}
+
 .miniature {
 	border-radius: 100px;
 	border: 2px solid black;
@@ -130,10 +135,9 @@ td {
 	float: left;
 	width: 20%;
 	padding-bottom: 2em;
-	background-color: #027b81e5;
+	background-color:#027b81e5 ;
 	vertical-align: top;
 	border-bottom-right-radius: 30px;
-	border-top-right-radius: 30px;
 }
 
 

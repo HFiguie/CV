@@ -36,8 +36,6 @@ h1,h2 {
 td {
 	min-width: 100px;
 	padding: 10px;
-	/*padding-right: 50px;*/
-	/*padding-bottom: 10px; */
 }
 
 .tableau {
@@ -63,7 +61,7 @@ td {
 	padding-left: 10px ;
 }
 /*remplacer ce selecteur par une classe*/
-li {
+.lignes {
 	padding-top: 15px;
 }
 .titre{
@@ -101,15 +99,15 @@ li {
 	padding-left: 10px;
 	color: black;
 }
-/*Remplacer ce selecteur par une classe*/
-a {
+
+.photo {
 	padding-bottom: 15px;
-	padding-top: 30px;
+	padding-top: 20px;
 	display: flex;
 	justify-content: center;
 }
-/* celui là aussi */
-img {
+
+.miniature {
 	border-radius: 100px;
 	border: 2px solid black;
 }
@@ -131,7 +129,9 @@ img {
 	background-color: #027b81e5;
 	vertical-align: top;
 	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
 }
+
 
 .paragraphe {
 	display: inline-block;
@@ -185,4 +185,3 @@ img {
 	}
 }
 
-/* largeur du liseret */

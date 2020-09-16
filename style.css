@@ -177,9 +177,10 @@ a{
 	
 @media all and (max-width: 1025px) {
 
-	header{
+	.header{
 		position: relative;
 		text-align: center;
+		background-color: white;
 	}
 
 	.liseret{
